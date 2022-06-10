@@ -284,6 +284,15 @@ a:hover{
 
 
   @media only screen and (max-width: 768px) {
+    body{
+      padding-left: 0px;
+    }
+    .topnav a {
+      
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 13px;
+    }
     .first-section{
   
       height: 40vh;
@@ -296,14 +305,14 @@ a:hover{
   }
 
   .intro-header{
-      font-size: 2.5rem;
+      font-size: 1.7rem;
   }
   .intro-h3{
     font-size: 1rem;
   }
     .propicfile{
-      margin-right: 180px;
-      width: 150px;
+      margin-right: 5px;
+      width: 120px;
       margin-top: 30px;
       /* border: 5px solid #AEDBCE; */
       border-radius: 6px;
@@ -366,6 +375,14 @@ height:unset; /*use this to adjust underline position*/
   margin-right: 0;
   list-style-type:none;
   text-align: center;
+}
+.script{
+  writing-mode:vertical-lr;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  font-size:0.2rem;
+  color: #AEDBCE;
 }
 }
 
