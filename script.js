@@ -13,6 +13,14 @@ var typed=new Typed(".auto-type",{
     loop:true
 })
 
+
+
+
+
+// transition effect
+
+
+
 // var sections = document.querySelectorAll('section');
 // var options = {
 // rootMargin: '0px',
