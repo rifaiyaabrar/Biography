@@ -403,3 +403,56 @@ height:unset; /*use this to adjust underline position*/
   
 }
 }
+
+
+@media only screen and (min-width: 1352px) and (max-width: 1520px) {
+.side-section-r {
+    padding-left: 720px;
+  }
+  .side-section {
+    padding-right: 720px;
+  }
+}
+@media only screen and (min-width: 1520px) and (max-width: 1740px) {
+  .side-section-r {
+      padding-left: 950px;
+    }
+    .side-section {
+      padding-right: 950px;
+    }
+  }
+
+
+
+  @media only screen and  (max-width: 1352px) {
+    .side-section-r {
+      padding-left: 0px;
+    }
+    .side-section-r::after {
+    content:unset;
+    position: unset;
+    border-bottom:unset; /*use this to adjust underlin color and size*/
+    width:unset;  /*use this to adjust underline width*/
+    height:unset; /*use this to adjust underline position*/
+    right:unset;
+    
+    }
+    .side-section {
+      padding-right: unset;
+    }
+    .side-section::before {
+    content:unset;
+    position:unset;
+    border-bottom:unset; /*use this to adjust underlin color and size*/
+    width:unset;  /*use this to adjust underline width*/
+    height:unset; /*use this to adjust underline position*/
+    }
+    .quote-section .side-section::before {
+      content:unset;
+      position: unset;
+      border-bottom:unset; /*use this to adjust underlin color and size*/
+      width:unset;  /*use this to adjust underline width*/
+      height:unset; /*use this to adjust underline position*/
+      left: unset;
+    }
+    }
